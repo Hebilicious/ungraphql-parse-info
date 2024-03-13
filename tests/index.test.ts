@@ -2,7 +2,7 @@ import {
   ResolveTree,
   parseResolveInfo,
   simplifyParsedResolveInfoFragmentWithType,
-} from "../mod";
+} from "../index";
 
 import {
   graphql,

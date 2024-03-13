@@ -1,3 +1,4 @@
+// TODO: Generate this from the mod (remove the npm: and version specifiers)
 import { assert } from "@std/assert/assert";
 import {
   getNamedType,
@@ -16,9 +17,9 @@ import {
   FragmentSpreadNode,
   InlineFragmentNode,
   NamedTypeNode,
-} from "npm:graphql@16.8.1";
-import { getArgumentValues } from "npm:graphql@16.8.1/execution/values";
-import debugFactory from "npm:debug@4.3.4";
+} from "graphql";
+import { getArgumentValues } from "graphql/execution/values";
+import debugFactory from "debug";
 
 type mixed = Record<string, any> | string | number | boolean | undefined | null;
 

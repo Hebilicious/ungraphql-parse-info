@@ -14,11 +14,12 @@
     "test": "bun test"
   },
   "dependencies": {
-    "assert": "^2.1.0",
+    "@std/assert": "npm:@jsr/std__assert",
     "debug": "^4.3.4",
     "graphql": "^16.8.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.6.1",
     "@types/assert": "^1.5.10",
     "@types/bun": "^1.0.8",
     "@types/debug": "^4.1.12",
