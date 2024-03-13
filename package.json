@@ -1,0 +1,27 @@
+{
+  "name": "@hebilicious/ungraphql-parse-info",
+  "description": "Parse GraphQLResolveInfo (the 4th argument of resolve) into a simple tree",
+  "keywords": [
+    "graphql",
+    "engine",
+    "resolveinfo",
+    "graphqljs",
+    "graphql-js",
+    "graphqlresolveinfo"
+  ],
+  "author": "Hebilicious <xsh4k3@gmail.com>",
+  "scripts": {
+    "test": "bun test"
+  },
+  "dependencies": {
+    "assert": "^2.1.0",
+    "debug": "^4.3.4",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.10",
+    "@types/bun": "^1.0.8",
+    "@types/debug": "^4.1.12",
+    "jsr": "^0.12.1"
+  }
+}

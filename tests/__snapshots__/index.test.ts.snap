@@ -1,0 +1,908 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic 1`] = `
+{
+  "alias": "allPosts",
+  "args": {},
+  "fieldsByTypeName": {
+    "PostsConnection": {
+      "edges": {
+        "alias": "edges",
+        "args": {},
+        "fieldsByTypeName": {
+          "PostEdge": {
+            "cursor": {
+              "alias": "cursor",
+              "args": {},
+              "fieldsByTypeName": {},
+              "name": "cursor",
+            },
+            "node": {
+              "alias": "node",
+              "args": {},
+              "fieldsByTypeName": {
+                "Post": {
+                  "author": {
+                    "alias": "author",
+                    "args": {},
+                    "fieldsByTypeName": {
+                      "Person": {
+                        "firstName": {
+                          "alias": "firstName",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "firstName",
+                        },
+                        "firstPost": {
+                          "alias": "firstPost",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "Post": {
+                              "author": {
+                                "alias": "author",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "firstName": {
+                                      "alias": "firstName",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "firstName",
+                                    },
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                    "name": {
+                                      "alias": "name",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "name",
+                                    },
+                                  },
+                                },
+                                "name": "personByAuthorId",
+                              },
+                              "headline": {
+                                "alias": "headline",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "headline",
+                              },
+                              "headlineTrimmed": {
+                                "alias": "headlineTrimmed",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "headlineTrimmed",
+                              },
+                              "id": {
+                                "alias": "id",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "id",
+                              },
+                            },
+                          },
+                          "name": "firstPost",
+                        },
+                        "friends": {
+                          "alias": "friends",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "PersonConnection": {
+                              "nodes": {
+                                "alias": "nodes",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "firstName": {
+                                      "alias": "firstName",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "firstName",
+                                    },
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                    "name": {
+                                      "alias": "name",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "name",
+                                    },
+                                  },
+                                },
+                                "name": "nodes",
+                              },
+                              "pageInfo": {
+                                "alias": "pageInfo",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "PageInfo": {
+                                    "startCursor": {
+                                      "alias": "startCursor",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "startCursor",
+                                    },
+                                  },
+                                },
+                                "name": "pageInfo",
+                              },
+                              "totalCount": {
+                                "alias": "totalCount",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "totalCount",
+                              },
+                            },
+                          },
+                          "name": "friends",
+                        },
+                        "id": {
+                          "alias": "id",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "id",
+                        },
+                        "name": {
+                          "alias": "name",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "name",
+                        },
+                      },
+                    },
+                    "name": "personByAuthorId",
+                  },
+                  "headline": {
+                    "alias": "headline",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "headline",
+                  },
+                  "headlineTrimmed": {
+                    "alias": "headlineTrimmed",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "headlineTrimmed",
+                  },
+                  "id": {
+                    "alias": "id",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "id",
+                  },
+                },
+              },
+              "name": "node",
+            },
+          },
+        },
+        "name": "edges",
+      },
+    },
+  },
+  "name": "allPosts",
+}
+`;
+
+exports[`basic 2`] = `
+{
+  "alias": "allPosts",
+  "args": {},
+  "fields": {
+    "edges": {
+      "alias": "edges",
+      "args": {},
+      "fieldsByTypeName": {
+        "PostEdge": {
+          "cursor": {
+            "alias": "cursor",
+            "args": {},
+            "fieldsByTypeName": {},
+            "name": "cursor",
+          },
+          "node": {
+            "alias": "node",
+            "args": {},
+            "fieldsByTypeName": {
+              "Post": {
+                "author": {
+                  "alias": "author",
+                  "args": {},
+                  "fieldsByTypeName": {
+                    "Person": {
+                      "firstName": {
+                        "alias": "firstName",
+                        "args": {},
+                        "fieldsByTypeName": {},
+                        "name": "firstName",
+                      },
+                      "firstPost": {
+                        "alias": "firstPost",
+                        "args": {},
+                        "fieldsByTypeName": {
+                          "Post": {
+                            "author": {
+                              "alias": "author",
+                              "args": {},
+                              "fieldsByTypeName": {
+                                "Person": {
+                                  "firstName": {
+                                    "alias": "firstName",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "firstName",
+                                  },
+                                  "id": {
+                                    "alias": "id",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "id",
+                                  },
+                                  "name": {
+                                    "alias": "name",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "name",
+                                  },
+                                },
+                              },
+                              "name": "personByAuthorId",
+                            },
+                            "headline": {
+                              "alias": "headline",
+                              "args": {},
+                              "fieldsByTypeName": {},
+                              "name": "headline",
+                            },
+                            "headlineTrimmed": {
+                              "alias": "headlineTrimmed",
+                              "args": {},
+                              "fieldsByTypeName": {},
+                              "name": "headlineTrimmed",
+                            },
+                            "id": {
+                              "alias": "id",
+                              "args": {},
+                              "fieldsByTypeName": {},
+                              "name": "id",
+                            },
+                          },
+                        },
+                        "name": "firstPost",
+                      },
+                      "friends": {
+                        "alias": "friends",
+                        "args": {},
+                        "fieldsByTypeName": {
+                          "PersonConnection": {
+                            "nodes": {
+                              "alias": "nodes",
+                              "args": {},
+                              "fieldsByTypeName": {
+                                "Person": {
+                                  "firstName": {
+                                    "alias": "firstName",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "firstName",
+                                  },
+                                  "id": {
+                                    "alias": "id",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "id",
+                                  },
+                                  "name": {
+                                    "alias": "name",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "name",
+                                  },
+                                },
+                              },
+                              "name": "nodes",
+                            },
+                            "pageInfo": {
+                              "alias": "pageInfo",
+                              "args": {},
+                              "fieldsByTypeName": {
+                                "PageInfo": {
+                                  "startCursor": {
+                                    "alias": "startCursor",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "startCursor",
+                                  },
+                                },
+                              },
+                              "name": "pageInfo",
+                            },
+                            "totalCount": {
+                              "alias": "totalCount",
+                              "args": {},
+                              "fieldsByTypeName": {},
+                              "name": "totalCount",
+                            },
+                          },
+                        },
+                        "name": "friends",
+                      },
+                      "id": {
+                        "alias": "id",
+                        "args": {},
+                        "fieldsByTypeName": {},
+                        "name": "id",
+                      },
+                      "name": {
+                        "alias": "name",
+                        "args": {},
+                        "fieldsByTypeName": {},
+                        "name": "name",
+                      },
+                    },
+                  },
+                  "name": "personByAuthorId",
+                },
+                "headline": {
+                  "alias": "headline",
+                  "args": {},
+                  "fieldsByTypeName": {},
+                  "name": "headline",
+                },
+                "headlineTrimmed": {
+                  "alias": "headlineTrimmed",
+                  "args": {},
+                  "fieldsByTypeName": {},
+                  "name": "headlineTrimmed",
+                },
+                "id": {
+                  "alias": "id",
+                  "args": {},
+                  "fieldsByTypeName": {},
+                  "name": "id",
+                },
+              },
+            },
+            "name": "node",
+          },
+        },
+      },
+      "name": "edges",
+    },
+  },
+  "fieldsByTypeName": {
+    "PostsConnection": {
+      "edges": {
+        "alias": "edges",
+        "args": {},
+        "fieldsByTypeName": {
+          "PostEdge": {
+            "cursor": {
+              "alias": "cursor",
+              "args": {},
+              "fieldsByTypeName": {},
+              "name": "cursor",
+            },
+            "node": {
+              "alias": "node",
+              "args": {},
+              "fieldsByTypeName": {
+                "Post": {
+                  "author": {
+                    "alias": "author",
+                    "args": {},
+                    "fieldsByTypeName": {
+                      "Person": {
+                        "firstName": {
+                          "alias": "firstName",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "firstName",
+                        },
+                        "firstPost": {
+                          "alias": "firstPost",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "Post": {
+                              "author": {
+                                "alias": "author",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "firstName": {
+                                      "alias": "firstName",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "firstName",
+                                    },
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                    "name": {
+                                      "alias": "name",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "name",
+                                    },
+                                  },
+                                },
+                                "name": "personByAuthorId",
+                              },
+                              "headline": {
+                                "alias": "headline",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "headline",
+                              },
+                              "headlineTrimmed": {
+                                "alias": "headlineTrimmed",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "headlineTrimmed",
+                              },
+                              "id": {
+                                "alias": "id",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "id",
+                              },
+                            },
+                          },
+                          "name": "firstPost",
+                        },
+                        "friends": {
+                          "alias": "friends",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "PersonConnection": {
+                              "nodes": {
+                                "alias": "nodes",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "firstName": {
+                                      "alias": "firstName",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "firstName",
+                                    },
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                    "name": {
+                                      "alias": "name",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "name",
+                                    },
+                                  },
+                                },
+                                "name": "nodes",
+                              },
+                              "pageInfo": {
+                                "alias": "pageInfo",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "PageInfo": {
+                                    "startCursor": {
+                                      "alias": "startCursor",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "startCursor",
+                                    },
+                                  },
+                                },
+                                "name": "pageInfo",
+                              },
+                              "totalCount": {
+                                "alias": "totalCount",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "totalCount",
+                              },
+                            },
+                          },
+                          "name": "friends",
+                        },
+                        "id": {
+                          "alias": "id",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "id",
+                        },
+                        "name": {
+                          "alias": "name",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "name",
+                        },
+                      },
+                    },
+                    "name": "personByAuthorId",
+                  },
+                  "headline": {
+                    "alias": "headline",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "headline",
+                  },
+                  "headlineTrimmed": {
+                    "alias": "headlineTrimmed",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "headlineTrimmed",
+                  },
+                  "id": {
+                    "alias": "id",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "id",
+                  },
+                },
+              },
+              "name": "node",
+            },
+          },
+        },
+        "name": "edges",
+      },
+    },
+  },
+  "name": "allPosts",
+}
+`;
+
+exports[`directives 1`] = `
+{
+  "alias": "allPosts",
+  "args": {},
+  "fieldsByTypeName": {
+    "PostsConnection": {
+      "edges": {
+        "alias": "edges",
+        "args": {},
+        "fieldsByTypeName": {
+          "PostEdge": {
+            "node": {
+              "alias": "node",
+              "args": {},
+              "fieldsByTypeName": {
+                "Post": {
+                  "author": {
+                    "alias": "author",
+                    "args": {},
+                    "fieldsByTypeName": {
+                      "Person": {
+                        "firstPost": {
+                          "alias": "firstPost",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "Post": {
+                              "author": {
+                                "alias": "author",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                  },
+                                },
+                                "name": "personByAuthorId",
+                              },
+                              "headline": {
+                                "alias": "headline",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "headline",
+                              },
+                              "id": {
+                                "alias": "id",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "id",
+                              },
+                            },
+                          },
+                          "name": "firstPost",
+                        },
+                        "friends": {
+                          "alias": "friends",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "PersonConnection": {
+                              "nodes": {
+                                "alias": "nodes",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                  },
+                                },
+                                "name": "nodes",
+                              },
+                            },
+                          },
+                          "name": "friends",
+                        },
+                        "id": {
+                          "alias": "id",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "id",
+                        },
+                      },
+                    },
+                    "name": "personByAuthorId",
+                  },
+                  "headline": {
+                    "alias": "headline",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "headline",
+                  },
+                  "id": {
+                    "alias": "id",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "id",
+                  },
+                },
+              },
+              "name": "node",
+            },
+          },
+        },
+        "name": "edges",
+      },
+    },
+  },
+  "name": "allPosts",
+}
+`;
+
+exports[`directives 2`] = `
+{
+  "alias": "allPosts",
+  "args": {},
+  "fields": {
+    "edges": {
+      "alias": "edges",
+      "args": {},
+      "fieldsByTypeName": {
+        "PostEdge": {
+          "node": {
+            "alias": "node",
+            "args": {},
+            "fieldsByTypeName": {
+              "Post": {
+                "author": {
+                  "alias": "author",
+                  "args": {},
+                  "fieldsByTypeName": {
+                    "Person": {
+                      "firstPost": {
+                        "alias": "firstPost",
+                        "args": {},
+                        "fieldsByTypeName": {
+                          "Post": {
+                            "author": {
+                              "alias": "author",
+                              "args": {},
+                              "fieldsByTypeName": {
+                                "Person": {
+                                  "id": {
+                                    "alias": "id",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "id",
+                                  },
+                                },
+                              },
+                              "name": "personByAuthorId",
+                            },
+                            "headline": {
+                              "alias": "headline",
+                              "args": {},
+                              "fieldsByTypeName": {},
+                              "name": "headline",
+                            },
+                            "id": {
+                              "alias": "id",
+                              "args": {},
+                              "fieldsByTypeName": {},
+                              "name": "id",
+                            },
+                          },
+                        },
+                        "name": "firstPost",
+                      },
+                      "friends": {
+                        "alias": "friends",
+                        "args": {},
+                        "fieldsByTypeName": {
+                          "PersonConnection": {
+                            "nodes": {
+                              "alias": "nodes",
+                              "args": {},
+                              "fieldsByTypeName": {
+                                "Person": {
+                                  "id": {
+                                    "alias": "id",
+                                    "args": {},
+                                    "fieldsByTypeName": {},
+                                    "name": "id",
+                                  },
+                                },
+                              },
+                              "name": "nodes",
+                            },
+                          },
+                        },
+                        "name": "friends",
+                      },
+                      "id": {
+                        "alias": "id",
+                        "args": {},
+                        "fieldsByTypeName": {},
+                        "name": "id",
+                      },
+                    },
+                  },
+                  "name": "personByAuthorId",
+                },
+                "headline": {
+                  "alias": "headline",
+                  "args": {},
+                  "fieldsByTypeName": {},
+                  "name": "headline",
+                },
+                "id": {
+                  "alias": "id",
+                  "args": {},
+                  "fieldsByTypeName": {},
+                  "name": "id",
+                },
+              },
+            },
+            "name": "node",
+          },
+        },
+      },
+      "name": "edges",
+    },
+  },
+  "fieldsByTypeName": {
+    "PostsConnection": {
+      "edges": {
+        "alias": "edges",
+        "args": {},
+        "fieldsByTypeName": {
+          "PostEdge": {
+            "node": {
+              "alias": "node",
+              "args": {},
+              "fieldsByTypeName": {
+                "Post": {
+                  "author": {
+                    "alias": "author",
+                    "args": {},
+                    "fieldsByTypeName": {
+                      "Person": {
+                        "firstPost": {
+                          "alias": "firstPost",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "Post": {
+                              "author": {
+                                "alias": "author",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                  },
+                                },
+                                "name": "personByAuthorId",
+                              },
+                              "headline": {
+                                "alias": "headline",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "headline",
+                              },
+                              "id": {
+                                "alias": "id",
+                                "args": {},
+                                "fieldsByTypeName": {},
+                                "name": "id",
+                              },
+                            },
+                          },
+                          "name": "firstPost",
+                        },
+                        "friends": {
+                          "alias": "friends",
+                          "args": {},
+                          "fieldsByTypeName": {
+                            "PersonConnection": {
+                              "nodes": {
+                                "alias": "nodes",
+                                "args": {},
+                                "fieldsByTypeName": {
+                                  "Person": {
+                                    "id": {
+                                      "alias": "id",
+                                      "args": {},
+                                      "fieldsByTypeName": {},
+                                      "name": "id",
+                                    },
+                                  },
+                                },
+                                "name": "nodes",
+                              },
+                            },
+                          },
+                          "name": "friends",
+                        },
+                        "id": {
+                          "alias": "id",
+                          "args": {},
+                          "fieldsByTypeName": {},
+                          "name": "id",
+                        },
+                      },
+                    },
+                    "name": "personByAuthorId",
+                  },
+                  "headline": {
+                    "alias": "headline",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "headline",
+                  },
+                  "id": {
+                    "alias": "id",
+                    "args": {},
+                    "fieldsByTypeName": {},
+                    "name": "id",
+                  },
+                },
+              },
+              "name": "node",
+            },
+          },
+        },
+        "name": "edges",
+      },
+    },
+  },
+  "name": "allPosts",
+}
+`;
